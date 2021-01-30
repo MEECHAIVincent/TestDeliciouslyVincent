@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">TestDeliciouslyVincent</string>
+
+    <!-- page d'accueil -->
+    <string name="app_title">Bienvenue</string>
+    <string name="home_tuto">Tutoriel</string>
+    <string name="home_profil">Profil</string>
+    <string name="home_remarque">Remarques</string>
+    <string name="home_retour">Retour</string>
+
+    <!-- page tutoriel -->
+    <string name="tuto_title">Tutoriel</string>
+    <string name="tuto_subtitle">7 Etapes pour créer son Jeu Vidéo</string>
+    <string name="tuto_step1">Etape 1 : Réfléchir au contexte</string>
+    <string name="tuto_step2">Etape 2 : Réaliser des concepts art</string>
+    <string name="tuto_step3">Etape 3 : Définir le style de jeu</string>
+    <string name="tuto_step4">Etape 4 : Choisir son moteur de jeu</string>
+    <string name="tuto_step5">Etape 5 : Réaliser le système de jeu</string>
+    <string name="tuto_step6">Etape 6 : Attaquer sur le design</string>
+    <string name="tuto_step7">Etape 7 : On poursuit le jeu</string>
+
+    <!-- page remarques -->
+    <string name="remarque_title">Remarques</string>
+    <string name="profil_title">My Profile</string>
+    <string name="remarque_subtitle">Explication Code</string>
+    <string name="remarque_context">"Cette application est réalisé via le logiciel AndroidStudio et codé en java. Pour la partie graphique il se retrouve dans le dossier res où il y aura des fichier de configuration XML de l'appli Android et la partie code se trouve dans le dossier Java.Au niveau du code j'ai utilisé la classe Intent afin de décomposer en activités distinctes les uns des autres et pouvoir les appeler pour mettre en place une communication entre activités."</string>
+    <string name="remarque_exemple">public void showTuto(View view) {\n //lancement de TutoActivity (page de Tuto)\n Intent intentTuto = new Intent(HomeActivity.this,TutoActivity.class);\n startActivity(intentTuto);\n }</string>
+    <string name="remarque_ex_title"><u>Exemple:</u></string>
+
+    <!-- page profil -->
+    <string name="profil_email">profile@test.com</string>
+
+
+</resources>
