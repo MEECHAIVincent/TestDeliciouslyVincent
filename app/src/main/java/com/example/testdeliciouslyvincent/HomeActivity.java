@@ -35,4 +35,6 @@ public class HomeActivity extends AppActivity {
 
         startActivity(intentRemarques);
     }
+
+
 }

@@ -23,8 +23,6 @@ public class ProfilActivity extends AppActivity {
 
     public void backHome(View view) {
         //Retour à la page d'accueil
-        Intent intentBackHome = new Intent(ProfilActivity.this,HomeActivity.class);
-
-        startActivity(intentBackHome);
+        ProfilActivity.this.finish();
     }
 }
